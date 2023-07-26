@@ -1,4 +1,4 @@
-import { Converter } from '../types';
+import { Converter } from '../../types';
 import { convertOperators, convertFilters } from './operators';
 
 const tupleConverter: Converter = ({

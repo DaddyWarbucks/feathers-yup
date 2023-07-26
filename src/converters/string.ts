@@ -1,7 +1,7 @@
-import { Converter } from '../types';
+import { Converter } from '../../types';
 import { convertOperators, convertFilters } from './operators';
 
-const numberConverter: Converter = ({
+const stringConverter: Converter = ({
   schema,
   fields,
   operators,
@@ -12,4 +12,4 @@ const numberConverter: Converter = ({
   convertOperators({ schema, fields, operators, path });
 };
 
-export default numberConverter;
+export default stringConverter;

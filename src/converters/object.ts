@@ -1,5 +1,5 @@
 import { AnySchema, ObjectSchema, object } from 'yup';
-import { Converter, Converters, QueryOperators } from '../types';
+import { Converter, Converters, QueryOperators } from '../../types';
 
 const objectConverter: Converter = ({
   schema,

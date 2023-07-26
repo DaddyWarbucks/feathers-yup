@@ -1,4 +1,4 @@
-import { AnySchema } from 'yup';
+import { AnySchema } from './src/yup';
 
 export type YupType =
   | 'array'

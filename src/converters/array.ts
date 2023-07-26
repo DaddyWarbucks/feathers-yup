@@ -1,4 +1,4 @@
-import { Converter, Meta } from '../types';
+import { Converter, Meta } from '../../types';
 import { string, object } from 'yup';
 import { convertOperators, convertFilters } from './operators';
 // import commonConverter from './common';

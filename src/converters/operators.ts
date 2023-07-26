@@ -1,5 +1,5 @@
 import { array, object, lazy, mixed, types, string } from '../yup';
-import { Operators, OperatorFields } from '../types';
+import { Operators, OperatorFields } from '../../types';
 
 export const defaultOperators: Operators = {
   $in: (schema, value) => {

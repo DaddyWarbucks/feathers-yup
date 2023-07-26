@@ -8,7 +8,7 @@ import {
   ObjectSchema,
   AnyObjectSchema,
 } from 'yup';
-import { Converters, ResolveOptions, QueryFields, Operators } from '../types';
+import { Converters, ResolveOptions, QueryFields, Operators } from '../../types';
 import stringConverter from './string';
 import numberConverter from './number';
 import booleanConverter from './boolean';

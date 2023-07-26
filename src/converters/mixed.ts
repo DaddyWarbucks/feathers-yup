@@ -1,7 +1,7 @@
-import { Converter } from '../types';
+import { Converter } from '../../types';
 import { convertOperators, convertFilters } from './operators';
 
-const objectIdConverter: Converter = ({
+const mixedConverter: Converter = ({
   schema,
   fields,
   operators,
@@ -12,4 +12,4 @@ const objectIdConverter: Converter = ({
   convertOperators({ schema, fields, operators, path });
 };
 
-export default objectIdConverter;
+export default mixedConverter;
