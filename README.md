@@ -1,3 +1,2 @@
-# typescript-5haroz
+# feathers-yup
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-5haroz)
