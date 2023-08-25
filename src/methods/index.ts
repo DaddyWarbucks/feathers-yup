@@ -58,13 +58,11 @@ addMethod(object, "validateQuery", function (data, options) {
     strict: false, // allow transforms and coercions
     ...options,
   };
-  return this.querySchema(opts)
-    .validate(data, opts)
-    .catch((error) => {
-      throw new QueryError(error.message, {
-        // errors: convertYupError(error),
-      });
+  return this.validate(data, opts).catch((error) => {
+    throw new QueryError(error.message, {
+      // errors: convertYupError(error),
     });
+  });
 });
 
 addMethod(object, "querySchema", function (options) {
